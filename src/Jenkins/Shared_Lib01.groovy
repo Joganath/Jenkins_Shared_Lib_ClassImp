@@ -1,4 +1,4 @@
-package Jenkins_Sharedlib
+package jenkins_Sharedlib
 
 class Shared_Lib01 {
 
