@@ -1,6 +1,6 @@
 package Jenkins_Sharedlib
 
-public class Shared_Lib01 {
+class Shared_Lib01 {
 
 
 def Code_Checkout()
