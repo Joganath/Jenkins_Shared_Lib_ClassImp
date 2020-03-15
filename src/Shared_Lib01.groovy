@@ -9,12 +9,12 @@ def Code_Checkout()
 }
 def Cleanup(String dir)
 {
-	sh "rm -r dir"
+	sh 'rm -r dir'
 }
 
 def Build()
 {
 	sh "mvn clean install"
 }
-
+return this
 }
