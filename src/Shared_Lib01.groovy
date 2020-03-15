@@ -7,9 +7,9 @@ def Code_Checkout()
 {
 	chckout scm
 }
-def Cleanup()
+def Cleanup(String dir)
 {
-	sh "rm -r ${WORKSPACE}"
+	sh "rm -r dir"
 }
 
 def Build()
