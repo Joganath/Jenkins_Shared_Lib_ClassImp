@@ -11,7 +11,7 @@ this.steps=steps
 
 def Cleanup(String dir)
 {
-    steps.sh 'rm -r dir'
+    steps.sh "rm -r ${dir}"
     
 
     }
