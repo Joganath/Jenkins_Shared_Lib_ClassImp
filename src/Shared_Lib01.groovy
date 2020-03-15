@@ -1,5 +1,5 @@
 package jenkins.sharedlib
-
+import 
 class Shared_Lib01 {
 
 
@@ -9,12 +9,12 @@ def Code_Checkout()
 }
 def Cleanup(String Dir)
 {
-	sh 'rm -r Dir'
+	sh "rm -r ${Dir}"
 }
 
 def Build()
 {
-	sh 'mvn clean install'
+	sh "mvn clean install"
 }
 
 }
